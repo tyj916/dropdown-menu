@@ -2,7 +2,13 @@ header {
   display: flex;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .dropdown-menu {
+  position: absolute;
+  width: 100%;
   list-style-type: none;
   padding-left: inherit;
   margin: 0;
