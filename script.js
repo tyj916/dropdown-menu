@@ -7,7 +7,7 @@ dropdowns.forEach(dropdown => {
     dropdownMenu.classList.add('visible');
   });
 
-  dropdownTrigger.addEventListener('mouseleave', () => {
+  dropdown.addEventListener('mouseleave', () => {
     dropdownMenu.classList.remove('visible');
   });
 });

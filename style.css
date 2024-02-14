@@ -1,11 +1,11 @@
-.dropdown {
-  position: relative;
+header {
+  display: flex;
 }
 
 .dropdown-menu {
-  position: absolute;
   list-style-type: none;
   padding-left: inherit;
+  margin: 0;
   transform: scaleY(0);
   transform-origin: top;
   opacity: 0;
@@ -17,4 +17,8 @@
   transform: scaleY(1);
   opacity: 1;
   pointer-events: all;
+}
+
+.dropdown-menu li button {
+  width: 100%;
 }
